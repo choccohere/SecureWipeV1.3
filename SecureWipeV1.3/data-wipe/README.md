@@ -67,6 +67,7 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 
+
 ### 🖥️ GUI Mode (Default)
 
 ```bash
@@ -90,8 +91,19 @@ python main.py --cli
 
 ---
 
-## ⚠️ Security Warning
+## 💽 Device Recommendations
 
+* 🟢 **Hard Disk Drives (HDDs)** – Recommended for full secure wiping using overwrite methods
+* 🔵 **USB Drives / Pen Drives** – Supported, but may take longer depending on size and speed
+* ⚠️ **Solid State Drives (SSDs)** – Not fully recommended for traditional overwrite wiping due to wear-leveling (use specialized tools if needed)
+
+---
+
+## ⚠️ Important Warning
+
+> Wiping is a time-consuming process. Please be patient.
+> Do NOT interrupt or shut down your storage device during the wiping process.
+> Interrupting the process may lead to incomplete erasure or device corruption.
 > This tool permanently destroys data and cannot be undone.
 > Always verify the selected disk or file before proceeding.
 
@@ -104,13 +116,8 @@ Feel free to fork the repository and submit a pull request.
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
-
 ## 🙌 Author
 
 **Satyam Panwar**
-🔗 https://github.com/your-username
+🔗 https://github.com/chccohere
+
