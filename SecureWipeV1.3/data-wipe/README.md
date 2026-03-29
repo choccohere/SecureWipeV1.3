@@ -1,37 +1,41 @@
-# SecureWipe Industrialized
+# 🔐 SecureWipe Industrialized
 
-
-
-#  Overview
+## 📌 Overview
 
 SecureWipe is a robust, cross-platform data erasure utility designed for secure and irreversible file deletion.
-It supports both Graphical User Interface (GUI) and Command Line Interface (CLI), making it suitable for beginners, developers, and system administrators.
+
+It supports both **Graphical User Interface (GUI)** and **Command Line Interface (CLI)**, making it suitable for beginners, developers, and system administrators.
 
 Built with a modular and scalable architecture, SecureWipe ensures reliability, performance, and safe execution across environments.
 
+---
 
+## ✨ Features
 
-# Features
+* 🔐 **Secure Data Erasure** – Prevents recovery of deleted data
+* 🖥️ **Dual Interface** – GUI (Tkinter) + CLI support
+* 🌍 **Cross-Platform** – Works on Windows and Linux
+* ⚡ **Industrial Design** – Clean, modular, and scalable codebase
+* 🧠 **Smart Execution** – Handles GUI/CLI fallback automatically
+* 🧾 **Certificate Generation (In Progress)** – PDF-based erasure reports
+* 🧪 **Multiple Wipe Patterns** – Supports overwrite methods (Zeros, Ones)
 
-🔐\ Secure Data Erasure – Prevents recovery of deleted data
-🖥️\ Dual Interface – GUI (Tkinter) + CLI support
-🌍\ Cross-Platform – Works on Windows and Linux
-⚡\ Industrial Design – Clean, modular, and scalable codebase
-🧠\ Smart Execution – Handles GUI/CLI fallback automatically
-🧾\ Certificate Generation (In Progress) – PDF-based erasure reports
-🧪\ Multiple Wipe Patterns – Supports overwrite methods (Zeros, Ones)
+---
 
+## 🛠️ Tech Stack
 
-# Tech Stack
+* **Language:** Python
+* **Libraries:** argparse, tkinter
+* **System Tools:**
 
-Language: Python
-Libraries: argparse, tkinter
-System Tools:
-Windows: PowerShell, DiskPart
-Linux: dd, parted
+  * **Windows:** PowerShell, DiskPart
+  * **Linux:** dd, parted
 
+---
 
-# Project Structure
+## 📂 Project Structure
+
+```bash
 DATA-WIPE/
 │── src/
 │   └── secure_wipe/
@@ -43,35 +47,70 @@ DATA-WIPE/
 │── main.py
 │── README.md
 │── requirements.txt
+```
 
+---
 
-# Install Python
+## ⚙️ Installation
 
-Make sure Python 3.8 or above is installed.
+### 1️⃣ Install Python
 
-#Install Dependencies
+Make sure Python **3.8 or above** is installed.
+
+### 2️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-# Usasge
+---
 
-1. GUI Mode (Default)
+## ▶️ Usage
+
+### 🖥️ GUI Mode (Default)
+
+```bash
 python main.py
-3. CLI Mode
+```
+
+### 💻 CLI Mode
+
+```bash
 python main.py --cli
+```
 
+---
 
-# Use Cases
+## 🎯 Use Cases
 
-Secure deletion of sensitive files
-Data sanitization before selling storage devices
-Privacy protection
-Enterprise-level disk wiping
-Security Warning
-This tool permanently destroys data and cannot be undone.
-Always verify the selected disk or file before proceeding.
+* Secure deletion of sensitive files
+* Data sanitization before selling storage devices
+* Privacy protection
+* Enterprise-level disk wiping
 
+---
 
-# Author
+## ⚠️ Security Warning
 
-Satyam Panwar
-🔗 GitHub: https://github.com/your-choccohere
+> This tool permanently destroys data and cannot be undone.
+> Always verify the selected disk or file before proceeding.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙌 Author
+
+**Satyam Panwar**
+🔗 https://github.com/your-username
