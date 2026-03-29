@@ -1,0 +1,2 @@
+reportlab
+# tkinter is usually bundled with Python, but some Linux distros may need 'python3-tk'
