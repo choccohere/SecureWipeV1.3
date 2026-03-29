@@ -1,40 +1,77 @@
 # SecureWipe Industrialized
 
-A robust, cross-platform data erasure utility for Windows and Linux.
 
-## Features
-- **Cross-Platform**: Native support for Windows (PowerShell/DiskPart) and Linux (dd/parted).
-- **Dual Interface**: Modern GUI built with Tkinter and a robust Command Line Interface (CLI).
-- **Industrialized Design**: Clean package structure, modular logic, and resource management.
-- **Secure Erasure**: Support for multiple wipe patterns (Zeros, Ones).
-- **Certificate Generation**: (In-progress) Automated erasure certificates in PDF format.
 
-## Installation
+#  Overview
 
-1. Install Python 3.8+
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+SecureWipe is a robust, cross-platform data erasure utility designed for secure and irreversible file deletion.
+It supports both Graphical User Interface (GUI) and Command Line Interface (CLI), making it suitable for beginners, developers, and system administrators.
 
-## Usage
+Built with a modular and scalable architecture, SecureWipe ensures reliability, performance, and safe execution across environments.
 
-### GUI Mode (Default)
-```bash
+
+
+# Features
+
+🔐\ Secure Data Erasure – Prevents recovery of deleted data
+🖥️\ Dual Interface – GUI (Tkinter) + CLI support
+🌍\ Cross-Platform – Works on Windows and Linux
+⚡\ Industrial Design – Clean, modular, and scalable codebase
+🧠\ Smart Execution – Handles GUI/CLI fallback automatically
+🧾\ Certificate Generation (In Progress) – PDF-based erasure reports
+🧪\ Multiple Wipe Patterns – Supports overwrite methods (Zeros, Ones)
+
+
+# Tech Stack
+
+Language: Python
+Libraries: argparse, tkinter
+System Tools:
+Windows: PowerShell, DiskPart
+Linux: dd, parted
+
+
+# Project Structure
+DATA-WIPE/
+│── src/
+│   └── secure_wipe/
+│       ├── core/        # Wiping & disk detection logic
+│       ├── gui/         # Tkinter GUI
+│       ├── cli/         # CLI interface
+│       ├── assets/      # Themes, icons, logos
+│       └── utils/       # Utilities (auth, PDF export)
+│── main.py
+│── README.md
+│── requirements.txt
+
+
+# Install Python
+
+Make sure Python 3.8 or above is installed.
+
+#Install Dependencies
+pip install -r requirements.txt
+
+# Usasge
+
+1. GUI Mode (Default)
 python main.py
-```
-
-### CLI Mode
-```bash
+3. CLI Mode
 python main.py --cli
-```
 
-## Project Structure
-- `src/secure_wipe/core`: Core wiping and disk detection logic.
-- `src/secure_wipe/gui`: Tkinter GUI implementation.
-- `src/secure_wipe/cli`: Interactive CLI implementation.
-- `src/secure_wipe/assets`: Themes, icons, and logos.
-- `src/secure_wipe/utils`: Shared utilities (authentication, PDF export).
 
-## Security Note
-This tool is designed to destroy data irreversibly. Use with extreme caution. Always double-check the target disk before confirming.
+# Use Cases
+
+Secure deletion of sensitive files
+Data sanitization before selling storage devices
+Privacy protection
+Enterprise-level disk wiping
+Security Warning
+This tool permanently destroys data and cannot be undone.
+Always verify the selected disk or file before proceeding.
+
+
+# Author
+
+Satyam Panwar
+🔗 GitHub: https://github.com/your-choccohere
